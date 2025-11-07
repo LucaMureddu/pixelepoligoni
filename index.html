@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pixel & Poligoni - Il Blog dei Videogiochi</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <div class="container">
+            <div class="header-content">
+                <a href="index.html" class="logo">Pixel & Poligoni</a>
+                
+                <nav class="nav">
+                    <ul class="nav-menu">
+                        <li><a href="recensioni.html">Recensioni</a></li>
+                        <li><a href="guide.html">Guide</a></li>
+                        <li><a href="contatti.html">Contatti</a></li>
+                    </ul>
+                </nav>
+
+                <button class="nav-toggle" aria-label="Apri il menu" aria-expanded="false">
+                    <span class="hamburger"></span>
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <!-- Main Content -->
+    <main class="main-content">
+
+        <section class="hero-section">
+            <h2 class="section-title">In Primo Piano</h2>
+            <article class="hero-article">
+                <a href="articles/articolo.html">
+        <div class="hero-image" style="background-image: url('/images/game1.jpg');"></div>
+                    <div class="hero-content">
+                        <span class="article-category">RECENSIONE</span>
+                        <h3 class="hero-title">Cyberpunk 2077: Phantom Liberty - Il Ritorno di Night City</h3>
+                        <p class="hero-preview">L'espansione che ridefinisce completamente l'esperienza di gioco. Con una storia avvincente, meccaniche rinnovate e un'atmosfera mozzafiato, Phantom Liberty è il riscatto che tutti stavamo aspettando. Scopri la nostra analisi completa.</p>
+                        <span class="read-more">Leggi la recensione &rarr;</span>
+                    </div>
+                </a>
+            </article>
+        </section>
+
+        <section class="latest-section">
+            <h2 class="section-title">Le Ultime Uscite</h2>
+            <div class="latest-grid">
+                <!-- Feature grande, con overlay e testo in evidenza -->
+                <a class="latest-feature" href="articles/starfield-review.html" style="background-image: url('/images/game4.png');">
+                    <div class="latest-feature-overlay"></div>
+                    <div class="latest-feature-content">
+                        <span class="article-category">RECENSIONE</span>
+                        <h3 class="feature-title">Starfield: Un Viaggio tra le Stelle</h3>
+                        <p class="feature-excerpt">Esplorazione spaziale, missioni e scelte: ecco perché vale la pena partire.</p>
+                    </div>
+                </a>
+
+                <!-- Colonna con due “spotlight” verticali -->
+                <div class="latest-stack">
+                    <a class="latest-spotlight" href="articles/baldurs-gate-guide.html" style="background-image: url('/images/game3.png');">
+                        <span class="article-category">GUIDA</span>
+                        <h4>Baldur's Gate 3: Guida alle Classi</h4>
+                    </a>
+                    <a class="latest-spotlight" href="articles/spider-man-2-new-game-plus.html" style="background-image: url('/images/game10.png');">
+                        <span class="article-category">PLAYSTATION</span>
+                        <h4>Spider‑Man 2: New Game+ disponibile</h4>
+                    </a>
+                    <a class="latest-spotlight" href="articles/elden-ring-miyazaki-teaser.html" style="background-image: url('/images/game6.jpg');">
+                        <span class="article-category">FROM SOFTWARE</span>
+                        <h4>Elden Ring: teaser del prossimo progetto</h4>
+                    </a>
+                </div>
+
+                <!-- Lista con miniature, titolo e categoria -->
+                <div class="latest-list">
+                    <a class="list-item" href="articles/nintendo-direct.html">
+                        <div class="list-thumb" style="background-image: url('/images/game2.png');"></div>
+                        <div class="list-content">
+                            <span class="article-category">NEWS</span>
+                            <h4>Nintendo Direct: tutte le novità</h4>
+                        </div>
+                    </a>
+                    <a class="list-item" href="articles/ps5-pro-news.html">
+                        <div class="list-thumb" style="background-image: url('/images/game5.png');"></div>
+                        <div class="list-content">
+                            <span class="article-category">NEWS</span>
+                            <h4>PlayStation 5 Pro: rumors e specifiche</h4>
+                        </div>
+                    </a>
+                    <a class="list-item" href="articles/cyberpunk-patch-2-1.html">
+                        <div class="list-thumb" style="background-image: url('/images/game1.jpg');"></div>
+                        <div class="list-content">
+                            <span class="article-category">AGGIORNAMENTI</span>
+                            <h4>Cyberpunk 2077: Patch 2.1</h4>
+                        </div>
+                    </a>
+                    <a class="list-item" href="articles/starfield-shattered-space-dlc.html">
+                        <div class="list-thumb" style="background-image: url('/images/game4.png');"></div>
+                        <div class="list-content">
+                            <span class="article-category">XBOX</span>
+                            <h4>Starfield: DLC Shattered Space</h4>
+                        </div>
+                    </a>
+                    <a class="list-item" href="articles/baldurs-gate-3-steam-mods.html">
+                        <div class="list-thumb" style="background-image: url('/images/game3.png');"></div>
+                        <div class="list-content">
+                            <span class="article-category">PC GAMING</span>
+                            <h4>Baldur's Gate 3: mod ufficiali su Steam</h4>
+                        </div>
+                    </a>
+                    <a class="list-item" href="articles/elden-ring-miyazaki-teaser.html">
+                        <div class="list-thumb" style="background-image: url('/images/game6.jpg');"></div>
+                        <div class="list-content">
+                            <span class="article-category">FROM SOFTWARE</span>
+                            <h4>Elden Ring: teaser per il prossimo progetto</h4>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <nav class="pagination">
+            <a href="placeholder.html" class="pagination-link">Prec.</a>
+            <span class="current">1</span>
+            <a href="placeholder.html" class="pagination-link">2</a>
+            <a href="placeholder.html" class="pagination-link">3</a>
+            <a href="placeholder.html" class="pagination-link">4</a>
+            <a href="placeholder.html" class="pagination-link">Succ.</a>
+        </nav>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="social-icons">
+            <a href="placeholder.html" class="social-icon"><i class="fab fa-twitch"></i></a>
+            <a href="placeholder.html" class="social-icon"><i class="fab fa-youtube"></i></a>
+            <a href="placeholder.html" class="social-icon"><i class="fab fa-twitter"></i></a>
+            <a href="placeholder.html" class="social-icon"><i class="fab fa-instagram"></i></a>
+        </div>
+        <div class="copyright">
+            <p>© 2025 Pixel & Poligoni. Progetto dimostrativo per portfolio.</p>
+        </div>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
