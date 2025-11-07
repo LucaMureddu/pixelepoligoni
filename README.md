@@ -6,7 +6,7 @@
 
 ## 🚀 Live Demo
 
-* [cite_start]**Guarda il sito live:** [https://pixelpoligoni.netlify.app/](https://pixelpoligoni.netlify.app/) [cite: 68]
+* [cite_start]**Guarda il sito live:** https://pixelepoligoni.vercel.app/ [cite: 68]
 
 ## 🎯 Obiettivo del Progetto
 
